@@ -58,6 +58,8 @@ npm run test:browser
 
 Browser tests use Chrome and synthetic API responses on port 3100. See [QA notes](docs/QA-REVIEW.md) for coverage and limitations.
 
+A GitHub Actions template is included at `docs/github-actions-ci.yml`. To enable CI, move it to `.github/workflows/ci.yml` using a GitHub login with permission to manage workflows.
+
 ## Deploy
 
 Import this repository into Vercel with the **Next.js** preset, configure the environment variables above, and deploy. Use the default build/output settings. No application database is required.

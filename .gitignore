@@ -5,6 +5,4 @@ out/
 !.env.example
 .vercel/
 *.tsbuildinfo
-test-results/
-playwright-report/
 .DS_Store

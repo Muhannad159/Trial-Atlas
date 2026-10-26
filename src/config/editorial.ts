@@ -78,8 +78,8 @@ export const editorial = {
         "Study information comes from ClinicalTrials.gov, a United States Government database maintained by the National Library of Medicine (NLM), National Institutes of Health (NIH). Citation metadata comes from PubMed through NCBI. TrialAtlas is an independent interface and claims no proprietary rights over the source databases or their records.",
       ],
       [
-        "Acceptance of source terms",
-        "The operator of TrialAtlas acknowledges and accepts the ClinicalTrials.gov Terms and Conditions and the applicable NLM/NCBI data-use terms for accessing and reusing these sources. Those source terms govern the data; this notice does not replace them, grant additional rights, or imply government approval.",
+        "Applicable source terms",
+        "TrialAtlas uses these data sources subject to their applicable terms and conditions. These include the ClinicalTrials.gov Terms and Conditions and the applicable NLM/NCBI data-use terms. Those source terms govern the data; this notice does not replace them, grant additional rights, or imply government approval.",
       ],
       [
         "Updates and presentation",

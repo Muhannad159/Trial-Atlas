@@ -4,6 +4,10 @@ A clinical trial finder for exploring public research, viewing study locations, 
 
 ![TrialAtlas homepage](docs/images/homepage.png)
 
+## Overview
+
+TrialAtlas turns public clinical-trial records into a clear research-discovery experience. It brings study search, location exploration, side-by-side comparison, eligibility information, and related literature into one workflow, while keeping direct links to the official records. It is designed for researchers, healthcare learners, and anyone exploring the clinical-research landscape.
+
 ## Features
 
 - Search by condition, location, intervention, sponsor, recruitment status, phase, age group, and study type.
@@ -39,9 +43,3 @@ TrialAtlas uses these data sources subject to their applicable terms and conditi
 Selected fields are reformatted, summaries are visually shortened on cards, labels are made readable, and structured study contact fields are omitted. The app's **Sources & methodology** and **Data sources & terms** pages explain these changes. Always check the official record for current details.
 
 For research discovery only—not medical advice, an eligibility assessment, or an enrollment service.
-
-## Deploy
-
-Import this repository into Vercel with the **Next.js** preset, configure the environment variables above, and deploy. Use the default build/output settings. No application database is required.
-
-PubMed request throttling is per server process; coordinate a shared quota/cache before scaling to substantial traffic.

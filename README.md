@@ -2,6 +2,8 @@
 
 A clinical trial finder for exploring public research, viewing study locations, and comparing studies side by side.
 
+![Next.js 16](https://img.shields.io/badge/Next.js-16-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) ![React 19](https://img.shields.io/badge/React-19-149ECA?style=for-the-badge&logo=react&logoColor=white) ![TypeScript 5.9](https://img.shields.io/badge/TypeScript-5.9-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![Tailwind CSS 4](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) ![MapLibre 6](https://img.shields.io/badge/MapLibre-6-396CB2?style=for-the-badge&logo=maplibre&logoColor=white) ![React PDF 4](https://img.shields.io/badge/React_PDF-4-E34F26?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)
+
 ![TrialAtlas homepage](docs/images/homepage.png)
 
 ## Overview
@@ -16,24 +18,6 @@ TrialAtlas turns public clinical-trial records into a clear research-discovery e
 - Compare up to three studies, share a comparison link, and export PDF or CSV summaries.
 - Browse search-engine-friendly condition and medical-imaging topic pages.
 
-## Run locally
-
-Requires Node.js 22 or newer.
-
-```bash
-npm ci
-cp .env.example .env.local
-npm run dev
-```
-
-Open [localhost:3000](http://localhost:3000).
-
-Set `NEXT_PUBLIC_SITE_URL` to your public URL before deploying. Set `NCBI_EMAIL` to your maintainer email; `NCBI_API_KEY` is optional and must remain server-only. Never commit `.env.local`.
-
-## Built with
-
-Next.js App Router, TypeScript, Tailwind CSS, MapLibre, OpenFreeMap, and React PDF.
-
 ## Data sources and terms
 
 Study data come from [ClinicalTrials.gov](https://clinicaltrials.gov), a U.S. Government database maintained by NLM/NIH. Citation metadata come from [PubMed](https://pubmed.ncbi.nlm.nih.gov/). TrialAtlas is independent, claims no ownership of these databases, and is not endorsed by NLM, NIH, or the U.S. Government.
@@ -43,3 +27,15 @@ TrialAtlas uses these data sources subject to their applicable terms and conditi
 Selected fields are reformatted, summaries are visually shortened on cards, labels are made readable, and structured study contact fields are omitted. The app's **Sources & methodology** and **Data sources & terms** pages explain these changes. Always check the official record for current details.
 
 For research discovery only—not medical advice, an eligibility assessment, or an enrollment service.
+
+## Development
+
+Requires Node.js 22 or newer.
+
+```bash
+npm ci
+cp .env.example .env.local
+npm run dev
+```
+
+Open [localhost:3000](http://localhost:3000). Set `NEXT_PUBLIC_SITE_URL` to the local origin and `NCBI_EMAIL` to a maintainer email. `NCBI_API_KEY` is optional and must remain server-only. Never commit `.env.local`.
